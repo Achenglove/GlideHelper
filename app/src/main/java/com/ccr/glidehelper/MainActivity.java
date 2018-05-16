@@ -1,5 +1,6 @@
 package com.ccr.glidehelper;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -9,7 +10,7 @@ import java.util.List;
 import com.ccr.glidehelper.MainAdapter.Type;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
